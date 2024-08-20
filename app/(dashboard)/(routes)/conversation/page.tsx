@@ -101,12 +101,6 @@ const ConversationPage = () => {
                 {/* Output Field */}
                 <div className="space-y-4 mt-4">
                     <div className="flex flex-col-reverse gap-y-4">
-                        {messages.map((message) => (
-                            <div key={message.content} >
-                                {message.content}
-                            </div>
-                        ))}
-
                     </div>
                 </div>
             </div>
